@@ -92,9 +92,8 @@ The goal: Make AI accessible by showing how simple the core concepts really are.
 - [**kg-chatbot**](https://github.com/Jayluci4/kg-chatbot) - Knowledge graph-powered conversational AI
 - [**kg-eval**](https://github.com/Jayluci4/kg-eval) - Evaluation framework for knowledge graph quality
 - [**ultimate-agentic-app**](https://github.com/Jayluci4/ultimate-agentic-app) - Advanced agentic application with multi-agent orchestration
-- [**news**](https://github.com/Jayluci4/news) - News analysis and processing application
+- [**news**](https://github.com/Jayluci4/news) - automatic news pull from 10+ sources and generate ai summaries
 - [**india-grants-oracle**](https://github.com/Jayluci4/india-grants-oracle) - Oracle system for discovering government grants
-- [**modern-data-folio-site**](https://github.com/Jayluci4/modern-data-folio-site) - Modern portfolio website
 
 ---
 
@@ -106,12 +105,6 @@ The goal: Make AI accessible by showing how simple the core concepts really are.
 - micro-diffusion (image generation from scratch)
 - micro-rlhf (how ChatGPT is aligned)
 - Video tutorials for the series
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jayluci4&show_icons=true&theme=default&hide=stars,issues)
 
 ---
 
@@ -136,6 +129,7 @@ I'm interested in:
 - Speaking about educational AI content
 - Open source collaborations
 
+ping me at jayantlohia16@gmail.com
 ---
 
 ## ⭐ Support This Work
