@@ -53,9 +53,27 @@ Learning modern AI by implementing the fundamentals in minimal code:
 <td>Knowledge Graphs</td>
 <td>How Google structures knowledge for AI reasoning</td>
 </tr>
+<tr>
+<td><a href="https://github.com/Jayluci4/micro-rlhf"><b>micro-rlhf</b></a></td>
+<td>~150</td>
+<td>RLHF Alignment</td>
+<td>How ChatGPT becomes helpful, harmless, and honest</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Jayluci4/micro-diffusion"><b>micro-diffusion</b></a></td>
+<td>~200</td>
+<td>Diffusion Models</td>
+<td>How Stable Diffusion generates images from noise</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Jayluci4/micro-lora"><b>micro-lora</b></a></td>
+<td>~120</td>
+<td>Efficient Fine-tuning</td>
+<td>How to fine-tune GPT on a laptop (1000x more efficient)</td>
+</tr>
 </table>
 
-**Total: ~730 lines of code teaching the complete modern AI pipeline**
+**Total: 9 repos, ~1200 lines of code teaching modern AI (2020-2025)**
 
 Each repo includes:
 - Minimal, readable code (no frameworks)
@@ -97,14 +115,23 @@ The goal: Make AI accessible by showing how simple the core concepts really are.
 
 ---
 
-## 💡 What I'm Working On
+## 💡 Prerequisites & What's Next
 
-**Currently:** Launching the "Build AI From Scratch" series
+**For training foundations** (backpropagation, gradient descent), see:
+- [Karpathy's micrograd](https://github.com/karpathy/micrograd) - Backprop from scratch
+- [Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT) - GPT training
+- [Karpathy's nanochat](https://github.com/karpathy/nanochat) - Complete chat model
 
-**Next:**
-- micro-diffusion (image generation from scratch)
-- micro-rlhf (how ChatGPT is aligned)
-- Video tutorials for the series
+**Then use my series to learn modern AI concepts!**
+
+**Currently:**
+- Launching the complete 9-repo series
+- Each repo complements Karpathy's foundational work
+
+**Coming Soon:**
+- Video walkthroughs for each repo
+- Blog series explaining key insights
+- Community contributions and improvements
 
 ---
 
