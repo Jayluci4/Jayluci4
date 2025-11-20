@@ -8,7 +8,56 @@ Inspired by [Andrej Karpathy's micrograd](https://github.com/karpathy/micrograd)
 
 ## 🎓 Build AI From Scratch Series
 
-Learning modern AI by implementing the fundamentals in minimal code:
+Learning modern AI by implementing the fundamentals in minimal code.
+
+### Part 1: Foundational Components (1990s-2010s)
+
+The building blocks that bridge micrograd and modern transformers:
+
+<table>
+<tr>
+<th>Repo</th>
+<th>Lines</th>
+<th>Concept</th>
+<th>What You'll Learn</th>
+</tr>
+<tr>
+<td><a href="https://github.com/Jayluci4/micro-rnn"><b>micro-rnn</b></a></td>
+<td>~350</td>
+<td>Recurrent Neural Networks</td>
+<td>How neural networks process sequences (vanishing gradients problem)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Jayluci4/micro-lstm"><b>micro-lstm</b></a></td>
+<td>~450</td>
+<td>Long Short-Term Memory</td>
+<td>How gates solve vanishing gradients (the breakthrough of 1997)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Jayluci4/micro-gru"><b>micro-gru</b></a></td>
+<td>~300</td>
+<td>Gated Recurrent Unit</td>
+<td>Simplified LSTM with 25% fewer parameters (2014 innovation)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Jayluci4/micro-embedding"><b>micro-embedding</b></a></td>
+<td>~300</td>
+<td>Word2Vec Embeddings</td>
+<td>How words become vectors (king - man + woman = queen)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Jayluci4/micro-seq2seq"><b>micro-seq2seq</b></a></td>
+<td>~450</td>
+<td>Encoder-Decoder</td>
+<td>How translation works (and why it needs attention)</td>
+</tr>
+</table>
+
+**Subtotal: 5 repos, ~1850 lines** - Start here after micrograd!
+
+### Part 2: Modern AI Architectures (2017-2025)
+
+The cutting-edge techniques powering today's AI:
 
 <table>
 <tr>
@@ -73,7 +122,11 @@ Learning modern AI by implementing the fundamentals in minimal code:
 </tr>
 </table>
 
-**Total: 9 repos, ~1200 lines of code teaching modern AI (2020-2025)**
+**Subtotal: 9 repos, ~1200 lines**
+
+---
+
+**Grand Total: 14 repos, ~3050 lines teaching AI from RNNs to modern LLMs**
 
 Each repo includes:
 - Minimal, readable code (no frameworks)
@@ -125,7 +178,8 @@ The goal: Make AI accessible by showing how simple the core concepts really are.
 **Then use my series to learn modern AI concepts!**
 
 **Currently:**
-- Launching the complete 9-repo series
+- Complete series: 14 repos covering foundations to modern AI
+- 5 NEW foundational repos bridge micrograd and transformers
 - Each repo complements Karpathy's foundational work
 
 **Coming Soon:**
