@@ -1,8 +1,32 @@
 # Hey, I'm Jayant 👋
 
-I **explain AI by building it from scratch**. No frameworks, no complexity - just clear code and beautiful visualizations.
+**AI Engineer & Educator** | Building Neural Networks from Scratch | Making Deep Learning Accessible
 
-Inspired by [Andrej Karpathy's micrograd](https://github.com/karpathy/micrograd).
+I **teach AI and machine learning by implementing algorithms from first principles**. Learn how neural networks, transformers, LSTMs, and modern LLMs actually work - no PyTorch, no TensorFlow, just pure NumPy and clear explanations.
+
+Perfect for:
+- **Students** learning deep learning fundamentals
+- **Engineers** understanding AI architectures deeply
+- **Researchers** exploring neural network implementations
+- **Anyone** curious about how ChatGPT, GPT-4, and Stable Diffusion work under the hood
+
+Inspired by [Andrej Karpathy's micrograd](https://github.com/karpathy/micrograd) and the philosophy of learning by building.
+
+**Keywords:** *AI from scratch, neural networks tutorial, LSTM tutorial, transformer implementation, RNN backpropagation, word embeddings, sequence to sequence, attention mechanism, deep learning education, machine learning fundamentals, NumPy neural networks*
+
+---
+
+<div align="center">
+
+[![GitHub followers](https://img.shields.io/github/followers/Jayluci4?label=Follow&style=social)](https://github.com/Jayluci4)
+[![GitHub stars](https://img.shields.io/github/stars/Jayluci4?style=social)](https://github.com/Jayluci4)
+![Profile Views](https://komarev.com/ghpvc/?username=Jayluci4&color=brightgreen)
+
+**14 Repositories** | **~3050 Lines of Educational Code** | **From RNNs to LLMs**
+
+[🚀 Start Learning](#-build-ai-from-scratch-series) | [📄 Research Papers](#-foundational-research-papers) | [📚 Learning Path](#-how-to-learn-ai-from-scratch-complete-roadmap) | [🤝 Collaborate](#-connect--collaborate)
+
+</div>
 
 ---
 
@@ -136,15 +160,73 @@ Each repo includes:
 
 ---
 
-## 🎯 Why I Built This
+## 📄 Foundational Research Papers
 
-Most AI tutorials either:
-- Use frameworks (hiding the complexity)
-- Or are too mathematical (losing clarity)
+Learn the theory behind each implementation. All papers with verified working links:
 
-**I wanted to see the actual mechanisms** - so I built them from scratch.
+### Recurrent Neural Networks & Sequence Models
+- **[Long Short-Term Memory (1997)](https://direct.mit.edu/neco/article/9/8/1735/6109/Long-Short-Term-Memory)** - Hochreiter & Schmidhuber
+  - *The breakthrough that solved vanishing gradients in RNNs*
+- **[Learning Phrase Representations using RNN Encoder-Decoder (2014)](https://arxiv.org/abs/1406.1078)** - Cho et al.
+  - *Introduced GRU (Gated Recurrent Unit)*
+- **[Sequence to Sequence Learning with Neural Networks (2014)](https://arxiv.org/abs/1409.3215)** - Sutskever, Vinyals & Le
+  - *LSTM-based encoder-decoder for translation*
 
-The goal: Make AI accessible by showing how simple the core concepts really are.
+### Word Embeddings & Representations
+- **[Efficient Estimation of Word Representations in Vector Space (2013)](https://arxiv.org/abs/1301.3781)** - Mikolov et al.
+  - *Word2Vec: Skip-gram and CBOW architectures*
+
+### Attention & Transformers
+- **[Neural Machine Translation by Jointly Learning to Align and Translate (2015)](https://arxiv.org/abs/1409.0473)** - Bahdanau, Cho & Bengio
+  - *First attention mechanism for seq2seq*
+- **[Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762)** - Vaswani et al.
+  - *The transformer architecture that revolutionized NLP*
+
+### Modern AI Techniques
+- **[Denoising Diffusion Probabilistic Models (2020)](https://arxiv.org/abs/2006.11239)** - Ho, Jain & Abbeel
+  - *Foundation of Stable Diffusion and DALL-E*
+- **[LoRA: Low-Rank Adaptation of Large Language Models (2021)](https://arxiv.org/abs/2106.09685)** - Hu et al.
+  - *Efficient fine-tuning for LLMs*
+
+### Optimization
+- **[Adam: A Method for Stochastic Optimization (2014)](https://arxiv.org/abs/1412.6980)** - Kingma & Ba
+  - *The most widely used optimizer in deep learning*
+
+---
+
+## 🎯 Why Build AI from Scratch?
+
+### The Problem with Most Deep Learning Tutorials
+
+Most AI and machine learning tutorials either:
+- **Use high-level frameworks** (PyTorch, TensorFlow, Keras) - hiding how backpropagation, gradient descent, and neural networks actually work
+- **Are too mathematical** (dense papers, complex notation) - losing intuition and practical understanding
+
+You can use ChatGPT without understanding transformers. But **you can't build the next breakthrough without understanding the fundamentals**.
+
+### The Solution: First Principles Learning
+
+**I implement every algorithm from scratch** - no black boxes, no magic. Just NumPy arrays, clear code, and extensive comments explaining the "why" behind each line.
+
+When you see exactly how:
+- LSTM gates solve vanishing gradients
+- Attention mechanisms look at all input tokens
+- Backpropagation through time works in RNNs
+- Word embeddings capture semantic meaning
+
+...you gain **deep intuition** that makes you a better AI engineer, researcher, or practitioner.
+
+### Learning Path: From Basics to State-of-the-Art
+
+```
+micrograd (Karpathy) → Foundational Components → Modern Architectures
+    ↓                         ↓                           ↓
+Backpropagation          RNN, LSTM, GRU            Transformers, RAG
+Gradient Descent         Word Embeddings           Diffusion Models
+Neural Networks          Seq2Seq                   RLHF, LoRA
+```
+
+**Goal:** Democratize AI education. Make cutting-edge concepts accessible to anyone willing to learn.
 
 ---
 
@@ -168,60 +250,147 @@ The goal: Make AI accessible by showing how simple the core concepts really are.
 
 ---
 
-## 💡 Prerequisites & What's Next
+## 💡 How to Learn AI from Scratch: Complete Roadmap
 
-**For training foundations** (backpropagation, gradient descent), see:
-- [Karpathy's micrograd](https://github.com/karpathy/micrograd) - Backprop from scratch
-- [Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT) - GPT training
+### Step 1: Master the Fundamentals (Start Here)
+
+**Prerequisites:** Basic Python, linear algebra, and calculus
+
+**Recommended starting point:**
+- [Karpathy's micrograd](https://github.com/karpathy/micrograd) - Learn backpropagation and gradient descent from scratch (~150 lines)
+- Understand: Neural networks, forward pass, backward pass, chain rule, optimizers
+
+### Step 2: Sequential Models (This Series - Part 1)
+
+After micrograd, learn how neural networks process sequences:
+1. **[micro-rnn](https://github.com/Jayluci4/micro-rnn)** - RNNs, BPTT, vanishing gradients
+2. **[micro-lstm](https://github.com/Jayluci4/micro-lstm)** - Gates, cell state, memory
+3. **[micro-gru](https://github.com/Jayluci4/micro-gru)** - Simplified LSTM
+4. **[micro-embedding](https://github.com/Jayluci4/micro-embedding)** - Word2Vec, semantic vectors
+5. **[micro-seq2seq](https://github.com/Jayluci4/micro-seq2seq)** - Encoder-decoder, translation
+
+### Step 3: Modern AI (This Series - Part 2)
+
+Build cutting-edge systems:
+- **Tokenization, Attention, Transformers** → Understand GPT & BERT
+- **RAG, Agents, Knowledge Graphs** → Build intelligent applications
+- **RLHF, Diffusion, LoRA** → Fine-tuning and image generation
+
+### Additional Resources
+
+- [Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT) - Full GPT training loop
 - [Karpathy's nanochat](https://github.com/karpathy/nanochat) - Complete chat model
+- [Stanford CS231n](http://cs231n.stanford.edu/) - Convolutional neural networks
+- [Stanford CS224n](http://web.stanford.edu/class/cs224n/) - NLP with deep learning
 
-**Then use my series to learn modern AI concepts!**
+### What's New
 
-**Currently:**
-- Complete series: 14 repos covering foundations to modern AI
-- 5 NEW foundational repos bridge micrograd and transformers
-- Each repo complements Karpathy's foundational work
+**Latest Updates (2025):**
+- 5 NEW foundational repos bridging micrograd → transformers
+- Complete learning path: 14 repos, ~3050 lines of educational code
+- All implementations verified with gradient checking
 
 **Coming Soon:**
-- Video walkthroughs for each repo
-- Blog series explaining key insights
-- Community contributions and improvements
+- Video tutorials explaining each architecture
+- Blog series: "How X Actually Works" for each component
+- Interactive visualizations and demos
+- Community contributions welcome!
 
 ---
 
-## 🎓 Background
+## 🎓 About Me
 
-- **Focus:** AI/ML, Knowledge Graphs, Autonomous Agents
-- **Approach:** Learn by building from scratch
-- **Philosophy:** Simplicity over complexity, clarity over frameworks
+**Jayant Lohia** - AI Engineer, Educator, and Open Source Contributor
+
+- **Expertise:** Deep Learning, Neural Networks, NLP, Knowledge Graphs, Autonomous AI Agents
+- **Approach:** First principles thinking - implement algorithms from scratch to build deep intuition
+- **Philosophy:** Simplicity beats complexity. Understanding beats memorization. Building beats watching.
+- **Teaching Style:** Heavy comments, clear visualizations, minimal dependencies, maximum clarity
+
+**Technical Skills:** Python, NumPy, Machine Learning, Deep Learning, Transformers, LLMs, RAG Systems, Multi-Agent Systems, Knowledge Representation
+
+**Mission:** Make AI accessible to everyone through clear, minimal, educational implementations
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Connect & Collaborate
 
-I'm interested in:
-- AI research and education
-- Building tools that make AI accessible
-- Collaborating on educational open-source projects
+**Looking to collaborate on:**
+- AI/ML research and education projects
+- Open source contributions to educational tools
+- Building accessible AI learning resources
+- Neural network implementation tutorials
 
-**Open to:**
-- Full-time opportunities in AI/ML
-- Consulting on AI/agent systems
-- Speaking about educational AI content
-- Open source collaborations
+**Available for:**
+- Full-time AI/ML engineering roles
+- Technical consulting on AI systems, agents, knowledge graphs
+- Speaking engagements on AI education and implementation
+- Code reviews and educational content collaboration
 
-ping me at jayantlohia16@gmail.com
+**Let's talk:** jayantlohia16@gmail.com
+
+**Find me on:**
+- GitHub: [@Jayluci4](https://github.com/Jayluci4) - Star repos you find useful!
+- Email: jayantlohia16@gmail.com - Questions, collaborations, opportunities
 ---
 
-## ⭐ Support This Work
+## ⭐ Support This Educational Mission
 
-If you find my repos helpful:
-- **Star the repos** you like
-- **Share them** with others learning AI
-- **Open issues** with questions or suggestions
-- **Contribute** improvements
+**Help make AI education more accessible:**
 
-Every star helps make AI education more accessible!
+🌟 **Star the repositories** - Shows support and helps others discover them
+📢 **Share with your network** - Students, engineers, researchers learning AI/ML
+💬 **Open issues** - Ask questions, suggest improvements, report bugs
+🔧 **Contribute** - Fix typos, add examples, improve explanations
+📝 **Write tutorials** - Blog about your learning journey using these repos
+🎥 **Create content** - Make videos, courses, or study guides
+
+**Every contribution helps democratize AI knowledge!**
+
+*Used these repos to learn? Drop a star and share your story!*
+
+---
+
+## ❓ Frequently Asked Questions
+
+### How is this different from online courses?
+
+**Online courses** teach you to use frameworks (PyTorch, TensorFlow). **This series teaches you how those frameworks work internally**. You'll implement backpropagation, attention, and transformers from scratch, giving you deep intuition that no course can provide.
+
+### Do I need a PhD to understand this?
+
+**No!** If you know basic Python, linear algebra (matrix multiplication), and calculus (derivatives), you can follow along. Each implementation includes extensive comments explaining the "why" behind every line.
+
+### Why NumPy instead of PyTorch?
+
+**Learning:** NumPy forces you to implement everything manually - you see exactly how gradients flow, how matrices are shaped, how backpropagation works. PyTorch hides these details.
+
+**Understanding:** After building from NumPy, you'll appreciate PyTorch's abstractions and use them more effectively.
+
+### How long does it take to complete the series?
+
+- **Each repo:** 2-4 hours to read, understand, and experiment
+- **Foundational Components (Part 1):** 1-2 weeks
+- **Modern Architectures (Part 2):** 2-3 weeks
+- **Total:** ~1 month of focused learning to go from RNNs to state-of-the-art transformers
+
+### Can I use this for my research/project?
+
+**Yes!** All code is MIT licensed. Use it for research, teaching, projects, or commercial applications. Attribution appreciated but not required.
+
+### What should I do after completing this series?
+
+1. Build a project using what you learned
+2. Read the original research papers (linked above)
+3. Contribute improvements back to these repos
+4. Share your learning journey to help others
+
+### How can I get help if I'm stuck?
+
+1. **Read the comments** - Every implementation is heavily documented
+2. **Check the papers** - Foundational research papers section has all references
+3. **Open an issue** - Ask questions on the specific repo
+4. **Email me** - jayantlohia16@gmail.com for complex questions
 
 ---
 
