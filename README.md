@@ -22,7 +22,7 @@ Inspired by [Andrej Karpathy's micrograd](https://github.com/karpathy/micrograd)
 [![GitHub stars](https://img.shields.io/github/stars/Jayluci4?style=social)](https://github.com/Jayluci4)
 ![Profile Views](https://komarev.com/ghpvc/?username=Jayluci4&color=brightgreen)
 
-**14 Repositories** | **~3050 Lines of Educational Code** | **From RNNs to LLMs**
+**15 Repositories** | **~5600 Lines of Educational Code** | **From RNNs to LLMs**
 
 [🚀 Start Learning](#-build-ai-from-scratch-series) | [📄 Research Papers](#-foundational-research-papers) | [📚 Learning Path](#-how-to-learn-ai-from-scratch-complete-roadmap) | [🤝 Collaborate](#-connect--collaborate)
 
@@ -109,6 +109,12 @@ The cutting-edge techniques powering today's AI:
 <td>How GPT and BERT actually work (putting it all together)</td>
 </tr>
 <tr>
+<td><a href="https://github.com/Jayluci4/micro-instruct"><b>micro-instruct</b></a></td>
+<td>~2550</td>
+<td>Instruction Following</td>
+<td>How to train your own instruction-following model (RoPE, RMSNorm, synthetic data)</td>
+</tr>
+<tr>
 <td><a href="https://github.com/Jayluci4/micro-rag"><b>micro-rag</b></a></td>
 <td>~150</td>
 <td>RAG</td>
@@ -146,11 +152,11 @@ The cutting-edge techniques powering today's AI:
 </tr>
 </table>
 
-**Subtotal: 9 repos, ~1200 lines**
+**Subtotal: 10 repos, ~3750 lines**
 
 ---
 
-**Grand Total: 14 repos, ~3050 lines teaching AI from RNNs to modern LLMs**
+**Grand Total: 15 repos, ~5600 lines teaching AI from RNNs to modern LLMs**
 
 Each repo includes:
 - Minimal, readable code (no frameworks)
@@ -286,8 +292,9 @@ Build cutting-edge systems:
 ### What's New
 
 **Latest Updates (2025):**
-- 5 NEW foundational repos bridging micrograd → transformers
-- Complete learning path: 14 repos, ~3050 lines of educational code
+- NEW: micro-instruct - Train your own instruction-following transformer from scratch!
+- 5 foundational repos bridging micrograd → transformers
+- Complete learning path: 15 repos, ~5600 lines of educational code
 - All implementations verified with gradient checking
 
 **Coming Soon:**
