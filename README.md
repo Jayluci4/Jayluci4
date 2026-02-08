@@ -1,8 +1,8 @@
 # Hey, I'm Jayant 👋
 
-**AI/ML Engineer | Implementing Intelligence from First Principles**
+**Systems Engineer | AI/ML Engineer | Implementing Intelligence from First Principles**
 
-Building Neural Networks from Scratch | Making Deep Learning Accessible
+Teaching Neural Networks from Scratch | Making Deep Learning Accessible
 
 I **teach AI and machine learning by implementing algorithms from first principles**. Learn how neural networks, transformers, LSTMs, and modern LLMs actually work - no PyTorch, no TensorFlow, just pure NumPy and clear explanations.
 
