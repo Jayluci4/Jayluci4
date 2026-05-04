@@ -5,7 +5,7 @@ I focus on **numerical stability** in low-precision inference and building **ref
 
 ---
 
-## ⚡ Featured Research: NOVA (ICML '26 Submission)
+## ⚡ Featured Research: NOVA 
 **[NOVA: Rational Winograd Transforms for FP16/INT8 Stability](https://github.com/Jayluci4/winograd-fp16-stability-analysis)**
 
 Standard Winograd convolutions ($F(6,3)$) are numerically unstable in FP16, causing accuracy to collapse to random chance on deep networks.
